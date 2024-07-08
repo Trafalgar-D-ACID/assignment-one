@@ -66,6 +66,20 @@ p {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #333;
+}
+
+.btn a, active {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn:hover a {
+    text-decoration: none;
+    color: #fff;
+}
+
 a {
     display: inline-block;
     color: #333;

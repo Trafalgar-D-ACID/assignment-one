@@ -1,62 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Profile</title>
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: #fff1f1;
-      }
-
-      .profile-card {
-        width: 250px;
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 24px;
-        color: #333;
-        margin-bottom: 10px;
-      }
-
-      p {
-        font-size: 14px;
-        color: #777;
-        margin-bottom: 15px;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      li {
-        font-size: 12px;
-        color: #555;
-        margin-bottom: 5px;
-      }
-    </style>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
     <div class="profile-card">
-      <h1>Trafalgar D. ACID</h1>
-      <p>Web Application Developer</p>
-      <p style="text-align: center;">
-        Hello! I’m ACID, a passionate web developer with 2 years of experience. Let’s create something amazing together!
-      </p>
-      <ul>
-        <li>Email: john@example.com</li>
-        <li>Mobile: +1 123-456-7890</li>
-      </ul>
+        <div class="profile-picture"></div>
+        <h1>Trafalgar D. ACID</h1>
+        <h4>Web Application Developer</h4>
+        <p>This is ACID, a passionate web developer with 2 years of experience in WordPress and Laravel. Let's create something amazing together!</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/trafalgar-d-acid/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.facebook.com/trafalgar.d.acid/"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/trafalgar.d.acid/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram"></a>
+        </div>
+        <div style="display: flex; justify-content: center; margin: 10px;">
+            <button class="btn">
+                <a href="mailto:smnafizulislam@google.com">Contact</a>
+            </button>
+            <button class="btn">
+                <a href="https://www.upwork.com/freelancers/~01de5a186b2e0500b2?mp_source=share">Hire Me</a>
+            </button>
+        </div>
     </div>
-  </body>
+</body>
 </html>
